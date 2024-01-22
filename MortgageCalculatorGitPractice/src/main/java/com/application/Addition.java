@@ -2,9 +2,10 @@ package com.application;
 
 public class Addition {
 
-	public void add(int x, int y) {
+	public int added(int x, int y) {
 		int result = x + y;
-		System.out.println("x: " + x + " + y: " + y + "= result:" + result);
+		System.out.println("x is -" + x + ",y is -" + y);
+		return result;
 	}
 	
 }
